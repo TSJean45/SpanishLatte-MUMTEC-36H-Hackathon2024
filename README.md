@@ -1,7 +1,7 @@
 # Western Digital x MUMTEC-36H-Hackathon 2024-
-# [Team Name] – MUMTEC Hackathon 2024 Submission
+# SpanishLatte – MUMTEC Hackathon 2024 Submission
 
-## Project Title: [Insert Project Name]
+## Project Title: SpanishLatte
 
 ### Table of Contents
 1. [Project Overview](#project-overview)
@@ -16,41 +16,45 @@
 ---
 
 ### Project Overview
-[Provide a brief description of your project. Include the problem you are solving, your approach, and the impact of your solution.]
+This project aims to enhance the reliability and performance of SSD firmware by automating comprehensive testing and implementing predictive maintenance. The key problem addressed is the risk of SSD failures and the inefficiencies in current testing methodologies. Our approach integrates automated testing processes into the firmware development lifecycle and analyzes operational logs to forecast potential hardware failures. The impact of our solution includes improved SSD reliability, reduced downtime, and enhanced operational efficiency in data centers.
 
-- **Problem Statement**: [Briefly describe the problem or challenge your project addresses.]
-- **Proposed Solution**: [Describe your AI-powered solution, highlighting its key features and benefits.]
+- **Problem Statement**: The project addresses the challenge of SSD firmware testing and the need for proactive maintenance to prevent hardware failures, leading to system downtime and reduced performance.
+- **Proposed Solution**: Our AI-powered solution automates firmware testing while providing recommendations for code optimization. It gathers and analyzes operational logs to predict potential SSD failures and schedules necessary maintenance, ensuring enhanced reliability and performance in storage systems.
 
 ---
 
 ### Technologies Used
-[List all the technologies, programming languages, frameworks, libraries, and tools used in the project. Include any external APIs or datasets.]
 
-- Python 3.7
-- PyTorch
-- TensorFlow
-- Figma
-- React
+Python 3.7
+PyTorch
+TensorFlow
+Figma
+React
+Kaggle Hard drive failure dataset
 
 ---
 
 ### Installation and Setup
-[Describe how to use install and setup your project. ]
+-
 
 --- 
 
 ### Usage
-[Describe how to use your application. Include example commands, expected inputs, and outputs.]
+-
 
 --- 
 
 ### Features
-[Highlight the key features of your project.]
+Comprehensive automated testing of SSD firmware.
+Code optimization recommendations based on test results.
+Real-time collection and analysis of operational logs.
+Predictive maintenance scheduling based on failure predictions.
+Seamless integration into existing firmware development processes.
 
 --- 
 
 ### Architecture
-[Provide an explanation of your system architecture.]
+The system architecture consists of three main components: the Automated Testing Module, which conducts firmware tests and provides feedback; the Log Analysis Module, which collects and analyzes operational logs to predict failures; and the User Interface, built with React, allowing users to interact with the system easily. Data flow between these components ensures efficient communication and timely processing of results for optimal decision-making. The backend is powered by Python, leveraging machine learning frameworks such as PyTorch and TensorFlow for predictive analytics.
 
 --- 
 
