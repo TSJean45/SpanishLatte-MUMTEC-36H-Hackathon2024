@@ -6,12 +6,8 @@
 ### Table of Contents
 1. [Project Overview](#project-overview)
 2. [Technologies Used](#technologies-used)
-3. [Installation and Setup](#installation-and-setup)
-4. [Usage](#usage)
-5. [Features](#features)
-6. [Architecture](#architecture)
-
-(feel free to add any content or sections)
+3. [Features](#features)
+4. [Architecture](#architecture)
 
 ---
 
@@ -34,16 +30,6 @@ This project aims to enhance the reliability and performance of SSD firmware by 
 
 ---
 
-### Installation and Setup
--
-
---- 
-
-### Usage
--
-
---- 
-
 ### Features
 - Comprehensive automated testing of SSD firmware.
 - Code optimization recommendations based on test results.
@@ -53,7 +39,16 @@ This project aims to enhance the reliability and performance of SSD firmware by 
 
 --- 
 
-### Architecture
-The system architecture consists of three main components: the Automated Testing Module, which conducts firmware tests and provides feedback; the Log Analysis Module, which collects and analyzes operational logs to predict failures; and the User Interface, built with React, allowing users to interact with the system easily. Data flow between these components ensures efficient communication and timely processing of results for optimal decision-making. The backend is powered by Python, leveraging machine learning frameworks such as PyTorch and TensorFlow for predictive analytics.
+## Architecture
+The system architecture consists of three main components:
+- Automated Testing Module: This component conducts firmware tests and provides feedback on the performance and reliability of the SSD firmware.
+- Log Analysis Module: This module collects and analyzes operational logs to predict failures using machine learning algorithms, allowing for proactive maintenance actions.
+- User Interface: Built with React, this interface allows users to interact with the system, visualize results, and manage maintenance schedules.
+
+Data flow between these components ensures efficient communication and timely processing of results for optimal decision-making. The backend is powered by Python, leveraging machine learning frameworks such as PyTorch and TensorFlow for predictive analytics.
+
+### AI Models
+- Random Forest: Utilized for predicting potential SSD failures by analyzing historical data and identifying patterns related to hardware malfunctions.
+- Llama and Mixtral: These models are employed for code optimization, providing AI-powered recommendations to enhance firmware efficiency. Llama focuses on natural language processing for understanding code semantics, while Mixtral offers advanced optimization techniques for performance improvement.
 
 ---
