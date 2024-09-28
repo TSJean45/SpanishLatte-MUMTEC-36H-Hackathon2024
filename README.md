@@ -8,6 +8,7 @@
 2. [Technologies Used](#technologies-used)
 3. [Features](#features)
 4. [Architecture](#architecture)
+5. [AI Models](#aimodels)
 
 ---
 
@@ -39,13 +40,15 @@ This project aims to enhance the reliability and performance of SSD firmware by 
 
 --- 
 
-## Architecture
+### Architecture
 The system architecture consists of three main components:
 - Automated Testing Module: This component conducts firmware tests and provides feedback on the performance and reliability of the SSD firmware.
 - Log Analysis Module: This module collects and analyzes operational logs to predict failures using machine learning algorithms, allowing for proactive maintenance actions.
 - User Interface: Built with React, this interface allows users to interact with the system, visualize results, and manage maintenance schedules.
 
 Data flow between these components ensures efficient communication and timely processing of results for optimal decision-making. The backend is powered by Python, leveraging machine learning frameworks such as PyTorch and TensorFlow for predictive analytics.
+
+--- 
 
 ### AI Models
 - Random Forest: Utilized for predicting potential SSD failures by analyzing historical data and identifying patterns related to hardware malfunctions.
