@@ -25,12 +25,12 @@ This project aims to enhance the reliability and performance of SSD firmware by 
 
 ### Technologies Used
 
-Python 3.7
-PyTorch
-TensorFlow
-Figma
-React
-Kaggle Hard drive failure dataset
+- Python 3.7
+- PyTorch
+- TensorFlow
+- Figma
+- React
+- Kaggle Hard drive failure dataset
 
 ---
 
@@ -45,11 +45,11 @@ Kaggle Hard drive failure dataset
 --- 
 
 ### Features
-Comprehensive automated testing of SSD firmware.
-Code optimization recommendations based on test results.
-Real-time collection and analysis of operational logs.
-Predictive maintenance scheduling based on failure predictions.
-Seamless integration into existing firmware development processes.
+- Comprehensive automated testing of SSD firmware.
+- Code optimization recommendations based on test results.
+- Real-time collection and analysis of operational logs.
+- Predictive maintenance scheduling based on failure predictions.
+- Seamless integration into existing firmware development processes.
 
 --- 
 
