@@ -23,3 +23,37 @@ This project aims to enhance the reliability and performance of SSD firmware by 
 
 ---
 
+### Technologies Used
+
+- Python 3.7
+- PyTorch
+- TensorFlow
+- Figma
+- React
+- Kaggle Hard drive failure dataset
+
+---
+
+### Installation and Setup
+-
+
+--- 
+
+### Usage
+-
+
+--- 
+
+### Features
+- Comprehensive automated testing of SSD firmware.
+- Code optimization recommendations based on test results.
+- Real-time collection and analysis of operational logs.
+- Predictive maintenance scheduling based on failure predictions.
+- Seamless integration into existing firmware development processes.
+
+--- 
+
+### Architecture
+The system architecture consists of three main components: the Automated Testing Module, which conducts firmware tests and provides feedback; the Log Analysis Module, which collects and analyzes operational logs to predict failures; and the User Interface, built with React, allowing users to interact with the system easily. Data flow between these components ensures efficient communication and timely processing of results for optimal decision-making. The backend is powered by Python, leveraging machine learning frameworks such as PyTorch and TensorFlow for predictive analytics.
+
+---
